@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshini Devi | Python Backend & AI Developer</title>
+    <meta name="description"
+        content="Portfolio of Roshini Devi, Python Backend Developer & AI Backend Engineer specializing in FastAPI, PostgreSQL, Redis, RAG, and AI Agents.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background decorative blur blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-accent">&lt;</span>Roshini<span class="logo-accent"> Devi /&gt;</span>
+            </a>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation" id="nav-toggle">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#highlights" class="nav-link">Highlights</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-content">
+
+        <!-- Home / Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="hero-container">
+                <div class="hero-text-content">
+                    <div class="badge">Available for opportunities</div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="text-gradient">Roshini Devi</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Python Backend Developer with experience building FastAPI microservices, REST APIs, PostgreSQL
+                        databases, and scalable backend systems.
+                    </p>
+                    <p class="hero-learning">
+                        Currently exploring <span class="highlight-teal">AI Backend Engineering</span>, LLMs, RAG,
+                        LangChain, and AI Agents.
+                    </p>
+                    <div class="hero-tech-stack">
+                        <span class="tech-pill">Python</span>
+                        <span class="tech-pill">FastAPI</span>
+                        <span class="tech-pill">PostgreSQL</span>
+                        <span class="tech-pill">Redis</span>
+                        <span class="tech-pill">AWS</span>
+                        <span class="tech-pill">Docker</span>
+                        <span class="tech-pill-accent">AI</span>
+                    </div>
+                    <div class="hero-cta-group">
+                        <a href="assets/resume.pdf" download="Roshini_Resume.pdf" class="btn btn-primary"
+                            id="btn-download-resume">
+                            <svg class="icon-btn" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                            </svg>
+                            Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image-content">
+                    <div class="profile-frame">
+                        <img src="assets/profile.jpg" alt="Roshini Devi Profile Pic" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="section about-section">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="card glass-card about-card">
+                <p>
+                    I am a Python Backend Developer with experience developing scalable backend systems and REST APIs.
+                    My core expertise lies in designing microservices using <strong>FastAPI</strong>, managing
+                    persistent data structures in <strong>PostgreSQL</strong>, implementing low-latency caching with
+                    <strong>Redis</strong>, and automating builds/deployments using <strong>Docker</strong>,
+                    <strong>AWS</strong>, and <strong>CI/CD</strong> pipelines.
+                </p>
+                <p>
+                    Driven by the rapid growth of intelligence layers in software, I am currently focusing on <strong>AI
+                        Backend Engineering</strong>. I am building projects utilizing Retrieval-Augmented Generation
+                    (RAG), high-performance Vector Databases, orchestration via LangChain, and integrating local & cloud
+                    LLMs into core service architectures.
+                </p>
+            </div>
+        </section>
+
+        <!-- Engineering Highlights Section -->
+        <section id="highlights" class="section highlights-section">
+            <div class="section-header">
+                <h2 class="section-title">Engineering Highlights</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="card glass-card highlights-card">
+                <ul class="highlights-list">
+                    <li>
+                        <div class="highlight-icon-wrapper">
+                            <svg class="highlight-bullet-icon text-indigo" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+                            </svg>
+                        </div>
+                        <p>Implemented critical <strong>bug fixes</strong> and feature enhancements across multiple backend HRMS modules, improving runtime stability.</p>
+                    </li>
+                    <li>
+                        <div class="highlight-icon-wrapper">
+                            <svg class="highlight-bullet-icon text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 1121.21 7.89H18v3"></path>
+                            </svg>
+                        </div>
+                        <p><strong>Refactored</strong> complex backend components, significantly improving code maintainability, testability, and readability.</p>
+                    </li>
+                    <li>
+                        <div class="highlight-icon-wrapper">
+                            <svg class="highlight-bullet-icon text-emerald" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <p>Optimized <strong>PostgreSQL queries</strong> and designed <strong>Redis caching</strong> topologies to improve response latency and mitigate server load.</p>
+                    </li>
+                    <li>
+                        <div class="highlight-icon-wrapper">
+                            <svg class="highlight-bullet-icon text-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                            </svg>
+                        </div>
+                        <p>Participated actively in debugging, comprehensive <strong>code reviews</strong>, unit testing, and technical documentation processes.</p>
+                    </li>
+                    <li>
+                        <div class="highlight-icon-wrapper">
+                            <svg class="highlight-bullet-icon text-indigo" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
+                            </svg>
+                        </div>
+                        <p>Applied <strong>data structures and algorithmic thinking</strong> while designing high-performance, scalable backend services.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section experience-section">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card card">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="role-title">Python Backend Developer (Junior)</h3>
+                                <h4 class="company-name">CoderView Technologies</h4>
+                            </div>
+                            <span class="timeline-date">Mar 2025 – Mar 2026</span>
+                        </div>
+                        <ul class="experience-list">
+                            <li>Developed and maintained 5+ FastAPI microservices, optimizing request throughput and
+                                service modularity.</li>
+                            <li>Built 20+ comprehensive REST APIs adhering to REST standards, with strict Pydantic
+                                validation schemas.</li>
+                            <li>Implemented secure JWT Authentication and Role-Based Access Control (RBAC) across public
+                                endpoints.</li>
+                            <li>Optimized PostgreSQL database performance, indexing frequently queried foreign keys and
+                                refactoring slow SQLAlchemy queries.</li>
+                            <li>Integrated Redis caching layers for heavy read operations, significantly reducing
+                                response latencies.</li>
+                            <li>Worked with Docker containerization, cloud resources on AWS, and orchestration using
+                                Jenkins, GitHub Actions, and custom CI/CD pipelines.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects-section">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-card card">
+                    <div class="project-header">
+                        <span class="project-tag">AI / NLP</span>
+                        <h3 class="project-title">AI-Powered Job Match Agent</h3>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-detail-box">
+                            <span class="detail-label problem-label">Problem:</span>
+                            <p class="detail-text">Job seekers spend significant time manually reviewing job
+                                descriptions and determining suitability.</p>
+                        </div>
+                        <div class="project-detail-box">
+                            <span class="detail-label solution-label">Solution:</span>
+                            <p class="detail-text">Developing an AI-powered platform that matches resumes with job
+                                descriptions using vector similarity search and LLM analysis.</p>
+                        </div>
+                        <div class="project-features">
+                            <span class="features-title">Features:</span>
+                            <ul class="feature-checklist">
+                                <li>
+                                    <svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Resume Analysis
+                                </li>
+                                <li>
+                                    <svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Job Scraping
+                                </li>
+                                <li>
+                                    <svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Semantic Search
+                                </li>
+                                <li>
+                                    <svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    LLM Matching
+                                </li>
+                                <li>
+                                    <svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Email Notifications
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tech-tags">
+                            <span>FastAPI</span>
+                            <span>PostgreSQL</span>
+                            <span>Sentence Transformers</span>
+                            <span>Ollama</span>
+                            <span>Vector Search</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-card card">
+                    <div class="project-header">
+                        <span class="project-tag">Full-Stack Utility</span>
+                        <h3 class="project-title">QR Code Generator</h3>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-detail-box">
+                            <span class="detail-label problem-label">Problem:</span>
+                            <p class="detail-text">Need a simple and scalable way to generate and store QR codes.</p>
+                        </div>
+                        <div class="project-detail-box">
+                            <span class="detail-label solution-label">Solution:</span>
+                            <p class="detail-text">Built a FastAPI-based web application for dynamic QR code generation.
+                            </p>
+                        </div>
+                        <div class="project-features">
+                            <span class="features-title">Features & Workflow:</span>
+                            <ul class="feature-checklist">
+                                <li>
+                                    <svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    API endpoint handles customization payloads
+                                </li>
+                                <li>
+                                    <svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Instant PNG/SVG vector format exports
+                                </li>
+                                <li>
+                                    <svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Automated secure storage on AWS S3
+                                </li>
+                                <li>
+                                    <svg class="check-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M5 13l4 4L19 7"></path>
+                                    </svg>
+                                    Interactive dynamic JavaScript UI
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-footer">
+                        <div class="project-tech-tags">
+                            <span>Python</span>
+                            <span>FastAPI</span>
+                            <span>JavaScript</span>
+                            <span>AWS S3</span>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills-section">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Skill Category 1 -->
+                <div class="skills-category-card glass-card card">
+                    <div class="skills-category-header">
+                        <svg class="category-icon text-indigo" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M5 12h14M5 12a2 2 0 012-2h10a2 2 0 012 2m-14 0a2 2 0 002 2h10a2 2 0 002-2M7 8h10M7 16h10">
+                            </path>
+                        </svg>
+                        <h3 class="category-title">Backend</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Microservices</span>
+                        <span class="skill-tag">SQLAlchemy</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 2 -->
+                <div class="skills-category-card glass-card card">
+                    <div class="skills-category-header">
+                        <svg class="category-icon text-teal" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 7v10c0 2.21 3.58 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.58 4 8 4s8-1.79 8-4M4 7c0-2.21 3.58-4 8-4s8 1.79 8 4m0 5c0 2.21-3.58 4-8 4s-8-1.79-8-4">
+                            </path>
+                        </svg>
+                        <h3 class="category-title">Database</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Redis</span>
+                        <span class="skill-tag">SQL</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 3 -->
+                <div class="skills-category-card glass-card card">
+                    <div class="skills-category-header">
+                        <svg class="category-icon text-emerald" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10">
+                            </path>
+                        </svg>
+                        <h3 class="category-title">Cloud & DevOps</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">AWS EC2</span>
+                        <span class="skill-tag">AWS S3</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Jenkins</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+
+                <!-- Skill Category 4 -->
+                <div class="skills-category-card glass-card card">
+                    <div class="skills-category-header">
+                        <svg class="category-icon text-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z">
+                            </path>
+                        </svg>
+                        <h3 class="category-title">AI</h3>
+                    </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">Prompt Engineering</span>
+                        <span class="skill-tag">LLM Fundamentals</span>
+                        <span class="skill-tag">RAG</span>
+                        <span class="skill-tag">Vector Databases</span>
+                        <span class="skill-tag">Embeddings</span>
+                        <span class="skill-tag">LangChain</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Section -->
+        <section id="blog" class="section blog-section">
+            <div class="section-header">
+                <h2 class="section-title">Blog Articles</h2>
+                <div class="section-divider"></div>
+            </div>
+            <p class="section-intro">Insights on software engineering, API development, caching, and integrating AI
+                models.</p>
+            <div class="blog-grid">
+                <!-- Blog 1 -->
+                <div class="blog-card glass-card card" data-article="rag-matters">
+                    <div class="blog-card-meta">
+                        <span class="blog-category">AI / RAG</span>
+                        <span class="blog-read-time">3 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">What is RAG and Why It Matters</h3>
+                    <p class="blog-card-excerpt">Discover how Retrieval-Augmented Generation bridges the gap between LLM
+                        static training and real-time private datasets...</p>
+                    <button class="btn-text">Read Article &rarr;</button>
+                </div>
+
+                <!-- Blog 2 -->
+                <div class="blog-card glass-card card" data-article="fastapi-workings">
+                    <div class="blog-card-meta">
+                        <span class="blog-category">Backend</span>
+                        <span class="blog-read-time">4 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">How FastAPI Works</h3>
+                    <p class="blog-card-excerpt">An inside look at ASGI, Starlette, Pydantic, and why async execution
+                        makes FastAPI incredibly fast for modern microservices...</p>
+                    <button class="btn-text">Read Article &rarr;</button>
+                </div>
+
+                <!-- Blog 3 -->
+                <div class="blog-card glass-card card" data-article="jwt-explained">
+                    <div class="blog-card-meta">
+                        <span class="blog-category">Security</span>
+                        <span class="blog-read-time">3 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">JWT Authentication Explained</h3>
+                    <p class="blog-card-excerpt">Understand the mechanics of secure token signing, stateless sessions,
+                        payloads, and implementing RBAC in Python APIs...</p>
+                    <button class="btn-text">Read Article &rarr;</button>
+                </div>
+
+                <!-- Blog 4 -->
+                <div class="blog-card glass-card card" data-article="redis-caching">
+                    <div class="blog-card-meta">
+                        <span class="blog-category">Caching</span>
+                        <span class="blog-read-time">3 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">Redis Caching for Beginners</h3>
+                    <p class="blog-card-excerpt">Learn how to boost backend API speed and reduce PostgreSQL load using
+                        standard Redis caching strategies and TTL keys...</p>
+                    <button class="btn-text">Read Article &rarr;</button>
+                </div>
+
+                <!-- Blog 5 -->
+                <div class="blog-card glass-card card" data-article="job-match-agent">
+                    <div class="blog-card-meta">
+                        <span class="blog-category">AI / Guide</span>
+                        <span class="blog-read-time">5 min read</span>
+                    </div>
+                    <h3 class="blog-card-title">Building an AI Job Match Agent</h3>
+                    <p class="blog-card-excerpt">Step-by-step breakdown of implementing embeddings, vector similarity
+                        search, and automated matchmaking using FastAPI...</p>
+                    <button class="btn-text">Read Article &rarr;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="section-header">
+                <h2 class="section-title">Contact</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-card glass-card card">
+                    <h3 class="contact-header-text">Let's Connect</h3>
+                    <p class="contact-desc">I am actively looking for backend engineering and AI backend developer
+                        roles. Reach out if you want to collaborate or just talk APIs & LLMs!</p>
+                    <div class="contact-methods">
+                        <a href="mailto:jammula.roshini@gmail.com" class="contact-item">
+                            <div class="contact-icon text-indigo">
+                                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">jammula.roshini@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/Roshinidevijammula" target="_blank" rel="noopener"
+                            class="contact-item">
+                            <div class="contact-icon text-teal">
+                                <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482C19.138 20.197 22 16.44 22 12.017 22 6.484 17.522 2 12 2z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">GitHub</span>
+                                <span class="contact-value">github.com/Roshinidevijammula</span>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/roshini-devi-8523b3200/" target="_blank" rel="noopener"
+                            class="contact-item">
+                            <div class="contact-icon text-cyan">
+                                <svg fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <span class="contact-label">LinkedIn</span>
+                                <span class="contact-value">linkedin.com/in/roshini-devi-8523b3200</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Roshini Devi. Built with speed and precision.</p>
+    </footer>
+
+    <!-- Blog Modal (Overlay Reader) -->
+    <div class="modal-overlay" id="blog-modal" aria-hidden="true" role="dialog">
+        <div class="modal-container glass-card">
+            <button class="modal-close-btn" id="modal-close" aria-label="Close article">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12">
+                    </path>
+                </svg>
+            </button>
+            <article class="modal-article-content" id="modal-body">
+                <!-- Injected dynamically by JS -->
+            </article>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
